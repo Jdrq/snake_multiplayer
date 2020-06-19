@@ -248,7 +248,7 @@ public class SnakePanel extends JPanel{
 			Main.localGame.getSnake(1).render(g, Color.BLUE, offsetX, offsetY);
 			
 			if(LocalPlayer.paused) {
-				g.drawString("Paused", this.getWidth()/2, this.getHeight()/2);
+				g.drawString("PAUZA", this.getWidth()/2, this.getHeight()/2);
 			}
 			break;
 		case OnlineMenu:
